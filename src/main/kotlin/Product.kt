@@ -16,7 +16,6 @@ open class Product(name: String, price: Double, age: Double) {
         set(value) {
             field = value
         }
-    var spoiled: Boolean = false
 
 
     init{
@@ -25,9 +24,6 @@ open class Product(name: String, price: Double, age: Double) {
         this.age = age
     }
 
-    fun spoil(): Boolean{
-        return age > 14
-    }
 
 
 }

@@ -18,8 +18,8 @@ fun main() {
     when (userResponse) {
         1 -> {
             println("Enter Password: ") //hint: admin
-            var userResponse2 = readln()
-            var result = userResponse2.compareTo("admin", false)
+            val userResponse2 = readln()
+            val result = userResponse2.compareTo("admin", false)
             if (result == 0) {
                 do {
                     println("Welcome!")
